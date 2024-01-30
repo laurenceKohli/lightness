@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "parcel src/index.html",
+    "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
   "browserslist": "> 0.25%, not dead",
@@ -12,5 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "color-convert": "^2.0.1",
+    "notyf": "^3.10.0"
   }
 }
